@@ -147,13 +147,51 @@ transform: translateX(0);
     transition-delay: .2s;
 }
 
-@keyframes foto { 
+.contact{
+    width: 100vw;
+    height: 100vh;
+}
+
+.contact-content h1{
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.socials{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.contact-content a{
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.contact-content a:hover{
+    transform: scale(1.5);
+    animation: color-loop .8s infinite;
+}
+@keyframes color-loop{
     0%{
-        opacity: 0;
-        transform: translateX(-100%);
+        color: rgb(255, 255, 255);
+    }
+    50%{
+        color: rgb(249, 232, 0);
     }
     100%{
-        opacity: 1;
-        transform: translateX(0);
+        color: rgb(255, 255, 255);
     }
+}
+.icon{
+    transition: .3s;
+    margin-right: 7px;
+}
+.icon:hover{
+    fill: yellow;
+    transform: scale(1.3);
 }
