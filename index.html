@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js"></script>
+    <script defer src="app.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">nanda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-white">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#work">Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="jumbotron">
+        <div class="jumbotron-content text-white hidden">
+            <!-- <img src="assets/img/nando.JPG" style="width: 450px; height: 300px;" alt=""> -->
+            <h1 class="display-4">Hi, I'm Nanda</h1>
+
+            <p class="lead">i'm a <span class="auto"> Android</span> Developer, still exploring</p>
+        </div>
+
+    </section>
+    <section class="about-me d-flex align-items-center" id="about-me">
+        <div class="container text-center text-white hidden">
+            <div class="title">
+                <h1>About Me</h1>
+                <div class="line"></div>
+                <p>My Full Name is Ananda Dwi Mirza, im from Indonesia, my interest come when i play games and i
+                    wondering how to make it and then i found there is Web Developer, Android Developer, and more. and i
+                    learned web for the first time in my Junior Highschool and at that time i just know that you can
+                    made really cool things in web and i decided to learn further until now!</p>
+            </div>
+        </div>
+    </section>
+    <section class="work d-flex align-items-center" id="work">
+        <div class="container  text-white hidden">
+            <div class="title">
+                <h1>My Works</h1>
+                <div class="line-work"></div>
+            </div>
+            <div class="works">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="work-content">
+                            <img class="work-img" src="/assets/img/vt_logo.png" alt="">
+                            <a class="work-link" href="">Virtual Travel</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="work-content">
+                        <a class="work-link" href="">virtual travel</a>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="work-content">
+                        <a class="work-link" href="">virtual travel</a>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="work-content">
+                        <a class="work-link" href="">virtual travel</a>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="work-content">
+                        <a class="work-link" href="">virtual travel</a>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="work-content">
+                        <a class="work-link" href="">virtual travel</a>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="work-content">
+                        <a class="work-link" href="">virtual travel</a>
+                    </div>
+                    </div>
+                    <div class="col-md-4">
+                    <div class="work-content">
+                        <a class="work-link" href="">virtual travel</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <script>
+        var typed = new Typed('.auto', {
+            strings: ['Android', 'Web', ],
+            typeSpeed: 130,
+            backSpeed: 130,
+            loop: true,
+
+        });
+    </script>
+</body>
+
+</html>
