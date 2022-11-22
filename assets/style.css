@@ -2,9 +2,10 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgb(220, 129, 0);
+    background-color: rgb(212, 138, 34);
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    overflow-y: none;
 }
 .hero{
     width: 100vw;
@@ -198,4 +199,33 @@ transform: translateX(0);
 .profile{
     height: 200px;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width : 800px){
+    .jumbotron-content h1{
+        font-size: 4em;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width : 400px){
+    .jumbotron-content h1{
+        font-size: 2em;
+    }
+
+    .about-me{
+        font-size: 1em;
+    }
+
+    .profile{
+        width: 55%;
+        height: 55%;
+    }
+
+    .contact-content h1{
+        font-size: 1.5em;
+    }
 }
