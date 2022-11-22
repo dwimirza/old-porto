@@ -211,9 +211,13 @@ transform: translateX(0);
     }
 }
 
-@media screen and (max-width : 400px){
+@media screen and (max-width : 360px){
     .jumbotron-content h1{
-        font-size: 2em;
+        font-size: 1.3em;
+    }
+
+    .jumbotron-content p{
+        font-size: .9em;
     }
 
     .about-me{
